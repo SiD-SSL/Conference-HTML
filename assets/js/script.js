@@ -1,27 +1,46 @@
 $(document).ready(function(){
 
 
-//---------- NAV BAR HOVER JS ------------//
-$(".nav-item").hover(function() {
+    //---------- NAV BAR HOVER JS ------------//
+    $(".nav-item").hover(function() {
 
-    let key = $(this).data('key');
-    $(this).find('.hover-menu'+key).removeClass('d-none');
+        let key = $(this).data('key');
+        $(this).find('.hover-menu'+key).removeClass('d-none');
 
-}, function() {
-    $('.hover-menu').addClass('d-none');
-});
+    }, function() {
+        $('.hover-menu').addClass('d-none');
+    });
 
 
-//Click event handler for nav-items
-$('.nav-item').on('click',function(){
+    //----------- ONCLICK NAV ITEM -----------// 	
+    $('.nav-item').on('click',function(){
+        $('.nav-item').removeClass('active');
+        $(this).addClass('active');
+    });
 
-    //Remove any previous active classes
-    $('.nav-item').removeClass('active');
-  
-    //Add active class to the clicked item
-    $(this).addClass('active');
-});
 
+    //--------- Nav Bar jQuery Start ---------// 		
+    $(".icon_jquery").click(function(){
+        $(".last_jquery").fadeToggle();
+    });
+
+
+    //------------- Header jQuery ------------// 	
+    $(".close").click(function(){
+        $(".form").fadeOut();
+    })
+    $(".register").click(function(){
+        $(".register_form").fadeIn();
+    })
+    $(".log_in").click(function(){
+        $(".login_form").fadeIn();
+    })
+
+    //--------- Counter Plugin Start ---------//
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
 });
 

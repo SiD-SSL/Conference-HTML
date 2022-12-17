@@ -1,0 +1,109 @@
+
+/*======================================
+			Nav Bar Section Start
+======================================*/
+nav{
+	padding: 23px 0 35px 0;
+	background: #f8f9fa;
+}
+nav .logo{
+ width: 10%;
+ margin-top: 5px;
+}
+nav .menu{
+	width: 60%;
+	margin-left: 8%;
+	margin-top: 26px;
+}
+nav .menu > ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li a{
+	display: inline-block;
+	margin-left: 35px;
+	color: #2d3e50;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	position: relative;
+	transition: 0.4s;
+}
+nav ul li a:hover{
+	color: #fbaa33;
+}
+/* Dropdown 1*/
+nav ul li{
+	position: relative;
+	text-align: center;
+	transition: 0.4s;
+}
+nav ul > li:hover > ol{
+	visibility: visible;
+	opacity: 1;
+}
+nav ul li ol{
+	background: red;
+	position: absolute;
+	top: 25px;
+	left: 19px;
+	z-index: 1;
+	width: 100%;
+	visibility: none;
+	opacity: 0;
+	transition: 0.4s;
+}
+nav ul li > ol li{
+	padding: 0px 10px;
+	position: relative;
+	transition: 0.4s;
+}
+nav ul li ol li a{
+	margin: 0 auto !important;
+}
+/* Dropdown 2*/
+nav ul li ol li ul{
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: 115px;
+	z-index: 1;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.4s;
+}
+nav ul li ol li:hover ul{
+	visibility: visible;
+	opacity: 1;
+}
+nav .btn{
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	width: 20%;
+	justify-content: flex-end;
+	padding: 0 !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+nav .btn a{
+	display: inline-block;
+	color: #ffffff;
+	background: #2d3e50;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	padding: 10px 20px;
+	border-radius: 6px;
+	margin-top: 20px;
+	transition: .4s;
+}
+nav .btn a:hover{
+	background: #fbaa33;
+}
+/*======================================
+			Nav Bar Section End
+======================================*/

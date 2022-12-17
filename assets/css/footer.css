@@ -1,0 +1,214 @@
+/*======================================
+		Footer-Part Section Start
+======================================*/
+#footer-part {
+    background: #2d3e50;
+    padding-bottom: 50px;
+}
+#footer-part .container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#footer-part .one {
+    padding-top: 30px;
+    width: 29%;
+    margin-bottom: 20px;
+}
+#footer-part .one p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 30px;
+}
+#footer-part .one span {
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 30px;
+}
+#footer-part .one i {
+    margin-top: 30px;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #2d3e50;
+	transition: .6s;
+	font-size: 23px;
+	cursor: pointer;
+}
+#footer-part .one i:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#footer-part .two {
+	width: 13%;
+	margin-left: 5%;
+}
+#footer-part .two h3 {
+     color: #ffffff;
+	margin-top: 48px;
+	font-weight: 700;
+	font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 47px;
+}
+#footer-part .two p {
+    font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	padding-bottom: 30px !important;
+    margin-left: 5px;
+     color: #ffffff;
+	 transition: 0.4s;
+	 cursor: pointer;
+}
+#footer-part .two p:hover{
+	color: #fbaa33;
+}
+#footer-part .three{
+	width: 15%;
+	margin-left: 5%;
+}
+#footer-part .three p {
+    font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	padding-bottom: 30px !important;
+    margin-left: 5px;
+	 color: #ffffff;
+	 transition: 0.4s;
+	 cursor: pointer;
+}
+#footer-part .three p:hover{
+	color: #fbaa33;
+}
+#footer-part .three .g{
+    margin-top: 119px;
+}
+#footer-part .four{
+	width: 33%;
+}
+#footer-part .four h4{
+     color: #ffffff;
+    margin-top: 47px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 47px;
+    font-weight: 700;
+}
+#footer-part .four .contact .location p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+#footer-part .four .contact .location{
+	margin-bottom: 35px;
+}
+#footer-part .four .contact .location1{
+	margin-bottom: 19px;
+}
+#footer-part .four .contact .location i{
+    font-size: 24px;
+	color: #2d3e50;
+	background: #ffffff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+	transition: .6s;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-right: 30px;
+}
+#footer-part .four .contact .location i:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#footer-part .four .contact .location p .enve{
+    font-size: 20px;
+}
+#footer-part .four .contact .location .phone i{
+    transform: rotate(-100deg);
+}
+#footer-part .four .contact .location .text .title{
+	color: #fbaa33;
+	font-family: 'Arimo';
+	font-weight: 400;
+	font-size: 14px;
+	padding-bottom: 10px;
+	text-align: left !important;
+	text-transform: uppercase;
+}
+#footer-part .four .contact .location .text .one1{
+	width: 83%;
+}
+/*======================================
+		Footer-Part Section End
+======================================*/
+/*======================================
+		Footer_Plugin Section Start
+======================================*/
+.footer_plugin .common{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.footer_plugin .common img{
+	height: 100%;
+	width: 100%;
+}
+.footer_plugin .common .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.footer_plugin .common .overlay p{
+	background: #ffffff;
+	padding: 10px 20px;
+	font-weight: 400;
+	font-size: 15px;
+	color: #2d3e50;
+	font-family: 'Arimo', sans-serif;
+	text-transform: capitalize;
+	margin: 0 auto;
+	width: 158px;
+	/* width: 59%; */
+	opacity: 0;
+	transition: 0.4s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.footer_plugin .common:hover p{
+	opacity: 1;
+	cursor: pointer;
+}
+.footer_plugin .common p:hover{
+	background: #fbaa33;
+	color: #ffffff;
+}
+/*======================================
+		Footer_Plugin Section End
+======================================*/
+/*======================================
+		Copyright Section Start
+======================================*/
+.copyright{
+	background: #2d3e50;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+}
+.copyright span{
+	color: #fbaa33;
+}
+/*======================================
+		Copyright Section End
+======================================*/

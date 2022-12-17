@@ -1,7 +1,8 @@
+/*======================================
+			Common CSS Start
+======================================*/
 * { margin: 0px; padding: 0px; outline: 0px; }
-
 html,body { scroll-behavior: smooth; }
-
 body{   
     color: var(--text);
     line-height: 1.8;
@@ -16,23 +17,20 @@ body{
     overflow-x: hidden;
     background: white;
 }
-
-img { vertical-align: middle; width: 100%; height: 100%; }
-
-a { text-decoration: none; color: black; display: inline-block; }
-
-ul,ol { padding: 0px; list-style: none; }
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+ul,ol{ list-style: none !important; }
+ul{ margin-bottom: 0 !important; }
+ul li{ display: inline-block; }
+a{ text-decoration: none !important; }
+p{ margin-bottom: 0 !important; }
 h1,h2,h3,h4,h5,h6,p,ol,ul,li,span,label { margin-bottom: 0px; }
 
-input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { font-size: 14px; color: black; }
-input:-ms-input-placeholder,textarea:-ms-input-placeholder { font-size: 14px; color: black; }
-input::-ms-input-placeholder,textarea::-ms-input-placeholder { font-size: 14px; color: black; }
-input::placeholder,textarea::placeholder { font-size: 14px; color: black; }
-input,button {outline: none; }
-input:focus,button:focus {outline: none; box-shadow: none;}
-.form-check-input:focus { box-shadow: none; }
-.form-control:focus { outline: 0;}
-
+.d-flex{ display: flex; }
 .pl-0{ padding-left: 0; }
 .pb-0{ padding-bottom: 0; }
 .pr-0{ padding-right: 0; }
@@ -43,10 +41,65 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 .mr-0{ margin-right: 0; }
 .mt-0{ margin-top: 0; }
 
+img { vertical-align: middle; width: 100%; height: 100%; }
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { font-size: 14px; color: black; }
+input:-ms-input-placeholder,textarea:-ms-input-placeholder { font-size: 14px; color: black; }
+input::-ms-input-placeholder,textarea::-ms-input-placeholder { font-size: 14px; color: black; }
+input::placeholder,textarea::placeholder { font-size: 14px; color: black; }
+
 .border-radius-50{ border-radius: 50%; }
-
 .text-justify{ text-align: justify; }
+input,button {outline: none; }
+input:focus,button:focus {outline: none; box-shadow: none;}
+.form-check-input:focus { box-shadow: none; }
+.form-control:focus { outline: 0;}
 
+/*---------- Common title CSS ----------*/
+.title{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.title h5{
+	font-weight: 300;
+	color: #353535;
+	font-size: 35px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.title p{
+	font-size: 16px;
+	color: #555;
+	line-height: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	width: 34%;
+	margin: 0 auto;
+}
+
+
+
+/*--------- Common Button CSS ---------*/
+.button a{
+	display: inline-block;
+	background-color: transparent;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 13px 20px;
+	border: 1px solid #ffffff;
+	font-size: 16px;
+	margin-right: 30px;
+	transition: 0.4s;
+	outline: none;
+}
+.button a:hover{
+	background-color: #ffca36;
+	color: #353535;
+	border-color: #ffca36;
+}
 
 /*------------ SCROLLBAR CSS -----------*/
 .scroll::-webkit-scrollbar-track{
@@ -57,6 +110,6 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 	width: 5px;
 	background-color: #F5F5F5;
 }
-
-
-
+/*======================================
+			Common CSS End
+======================================*/
