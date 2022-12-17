@@ -62,8 +62,8 @@ $('.banner').slick({
   speed: 600,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: '<i class="fa fa-angle-left prev" aria-hidden="true"></i>',
-  nextArrow: '<i class="fa fa-angle-right next" aria-hidden="true"></i>',
+  prevArrow: '<i class="fas fa-caret-left prev" aria-hidden="true"></i>',
+  nextArrow: '<i class="fas fa-caret-right next" aria-hidden="true"></i>',
 });
 // ======================================
 // 		About US Plugin Start
@@ -88,8 +88,8 @@ $('.course_plugin').slick({
   speed: 600,
   slidesToShow: 3,
   slidesToScroll: 1,
-  prevArrow: '<i class="fa fa-angle-left prev" aria-hidden="true"></i>',
-  nextArrow: '<i class="fa fa-angle-right next" aria-hidden="true"></i>',
+  prevArrow: '<i class="fas fa-caret-left prev" aria-hidden="true"></i>',
+  nextArrow: '<i class="fas fa-caret-right next" aria-hidden="true"></i>',
 });
 // ======================================
 // 		Testimonial Plugin Start
@@ -102,8 +102,8 @@ $('.tesi_plug').slick({
   speed: 600,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: '<i class="fa fa-angle-left prev" aria-hidden="true"></i>',
-  nextArrow: '<i class="fa fa-angle-right next" aria-hidden="true"></i>',
+  prevArrow: '<i class="fas fa-caret-left prev" aria-hidden="true"></i>',
+  nextArrow: '<i class="fas fa-caret-right next" aria-hidden="true"></i>',
 });
 // ======================================
 // 		Footer Plugin Start

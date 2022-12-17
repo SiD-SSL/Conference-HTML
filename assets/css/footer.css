@@ -1,33 +1,33 @@
 /*======================================
 		Footer-Part Section Start
 ======================================*/
-#footer-part {
+.footer-part {
     background: #2d3e50;
     padding-bottom: 50px;
 }
-#footer-part .container{
+.footer-part .container{
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
-#footer-part .one {
+.footer-part .one {
     padding-top: 30px;
     width: 29%;
     margin-bottom: 20px;
 }
-#footer-part .one p {
+.footer-part .one p {
     color: #ffffff;
     font-size: 14px;
     font-family: 'Arimo', sans-serif;
     margin-top: 30px;
 }
-#footer-part .one span {
+.footer-part .one span {
     color: #ffffff;
     display: block;
     font-size: 14px;
     font-family: 'Arimo', sans-serif;
     margin-top: 30px;
 }
-#footer-part .one i {
+.footer-part .one i {
     margin-top: 30px;
     margin-right: 15px;
     height: 40px;
@@ -41,15 +41,15 @@
 	font-size: 23px;
 	cursor: pointer;
 }
-#footer-part .one i:hover{
+.footer-part .one i:hover{
     background: #fbaa33;
     color: #fff;
 }
-#footer-part .two {
+.footer-part .two {
 	width: 13%;
 	margin-left: 5%;
 }
-#footer-part .two h3 {
+.footer-part .two h3 {
      color: #ffffff;
 	margin-top: 48px;
 	font-weight: 700;
@@ -57,7 +57,7 @@
     font-family: 'Arimo', sans-serif;
     margin-bottom: 47px;
 }
-#footer-part .two p {
+.footer-part .two p {
     font-family: 'Arimo', sans-serif;
 	font-size: 16px;
 	padding-bottom: 30px !important;
@@ -66,14 +66,14 @@
 	 transition: 0.4s;
 	 cursor: pointer;
 }
-#footer-part .two p:hover{
+.footer-part .two p:hover{
 	color: #fbaa33;
 }
-#footer-part .three{
+.footer-part .three{
 	width: 15%;
 	margin-left: 5%;
 }
-#footer-part .three p {
+.footer-part .three p {
     font-family: 'Arimo', sans-serif;
 	font-size: 16px;
 	padding-bottom: 30px !important;
@@ -82,16 +82,16 @@
 	 transition: 0.4s;
 	 cursor: pointer;
 }
-#footer-part .three p:hover{
+.footer-part .three p:hover{
 	color: #fbaa33;
 }
-#footer-part .three .g{
+.footer-part .three .g{
     margin-top: 119px;
 }
-#footer-part .four{
+.footer-part .four{
 	width: 33%;
 }
-#footer-part .four h4{
+.footer-part .four h4{
      color: #ffffff;
     margin-top: 47px;
     font-size: 20px;
@@ -99,18 +99,18 @@
     margin-bottom: 47px;
     font-weight: 700;
 }
-#footer-part .four .contact .location p{
+.footer-part .four .contact .location p{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #fff;
 }
-#footer-part .four .contact .location{
+.footer-part .four .contact .location{
 	margin-bottom: 35px;
 }
-#footer-part .four .contact .location1{
+.footer-part .four .contact .location1{
 	margin-bottom: 19px;
 }
-#footer-part .four .contact .location i{
+.footer-part .four .contact .location i{
     font-size: 24px;
 	color: #2d3e50;
 	background: #ffffff;
@@ -124,17 +124,17 @@
 	cursor: pointer;
 	margin-right: 30px;
 }
-#footer-part .four .contact .location i:hover{
+.footer-part .four .contact .location i:hover{
     background: #fbaa33;
     color: #fff;
 }
-#footer-part .four .contact .location p .enve{
+.footer-part .four .contact .location p .enve{
     font-size: 20px;
 }
-#footer-part .four .contact .location .phone i{
+.footer-part .four .contact .location .phone i{
     transform: rotate(-100deg);
 }
-#footer-part .four .contact .location .text .title{
+.footer-part .four .contact .location .text .title{
 	color: #fbaa33;
 	font-family: 'Arimo';
 	font-weight: 400;
@@ -143,8 +143,12 @@
 	text-align: left !important;
 	text-transform: uppercase;
 }
-#footer-part .four .contact .location .text .one1{
+.footer-part .four .contact .location .text .one1{
 	width: 83%;
+}
+.footer-part .one .img{
+    width: 80px;
+    height: 60px;
 }
 /*======================================
 		Footer-Part Section End

@@ -133,6 +133,12 @@
 .services .main .common:hover .text p{
 	color: #fbaa33 !important;
 }
+.services .main .common .img{
+    width: 40px;
+    height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
 /*======================================
 		Services Section End
 ======================================*/

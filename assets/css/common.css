@@ -57,24 +57,23 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 
 /*---------- Common title CSS ----------*/
 .title{
-	margin-bottom: 30px;
 	text-align: center;
+	margin-bottom: 70px;
 }
-.title h5{
-	font-weight: 300;
-	color: #353535;
-	font-size: 35px;
-	margin-top: 0;
-	margin-bottom: 20px;
-	font-family: 'Roboto', sans-serif;
+.title h1{
+	font-size: 32px;
+	color: #2d3e50;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 25px;
 }
 .title p{
-	font-size: 16px;
-	color: #555;
-	line-height: 24px;
-	font-family: 'Roboto', sans-serif;
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Arimo', sans-serif;
 	font-weight: 400;
-	width: 34%;
+	width: 46%;
 	margin: 0 auto;
 }
 
@@ -83,22 +82,19 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 /*--------- Common Button CSS ---------*/
 .button a{
 	display: inline-block;
-	background-color: transparent;
 	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
-	font-weight: 500;
-	padding: 13px 20px;
-	border: 1px solid #ffffff;
-	font-size: 16px;
-	margin-right: 30px;
+	font-size: 20px;
+	background: #2d3e50;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	padding: 13px 22px;
+	border-radius: 5px;
+	margin-right: 20px;
 	transition: 0.4s;
-	outline: none;
+	text-transform: capitalize;
 }
 .button a:hover{
-	background-color: #ffca36;
-	color: #353535;
-	border-color: #ffca36;
+	background: #fbaa33;
 }
 
 /*------------ SCROLLBAR CSS -----------*/

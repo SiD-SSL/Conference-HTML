@@ -36,12 +36,6 @@ $(document).ready(function(){
         $(".login_form").fadeIn();
     })
 
-    //--------- Counter Plugin Start ---------//
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-
 });
 
 
