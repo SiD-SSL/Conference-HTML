@@ -1,0 +1,62 @@
+* { margin: 0px; padding: 0px; outline: 0px; }
+
+html,body { scroll-behavior: smooth; }
+
+body{   
+    color: var(--text);
+    line-height: 1.8;
+    font-family: var(--pfamily);
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    vertical-align: baseline;
+    overflow-x: hidden;
+    background: white;
+}
+
+img { vertical-align: middle; width: 100%; height: 100%; }
+
+a { text-decoration: none; color: black; display: inline-block; }
+
+ul,ol { padding: 0px; list-style: none; }
+h1,h2,h3,h4,h5,h6,p,ol,ul,li,span,label { margin-bottom: 0px; }
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { font-size: 14px; color: black; }
+input:-ms-input-placeholder,textarea:-ms-input-placeholder { font-size: 14px; color: black; }
+input::-ms-input-placeholder,textarea::-ms-input-placeholder { font-size: 14px; color: black; }
+input::placeholder,textarea::placeholder { font-size: 14px; color: black; }
+input,button {outline: none; }
+input:focus,button:focus {outline: none; box-shadow: none;}
+.form-check-input:focus { box-shadow: none; }
+.form-control:focus { outline: 0;}
+
+.pl-0{ padding-left: 0; }
+.pb-0{ padding-bottom: 0; }
+.pr-0{ padding-right: 0; }
+.pt-0{ padding-top: 0; }
+
+.ml-0{ margin-left: 0; }
+.mb-0{ margin-bottom: 0; }
+.mr-0{ margin-right: 0; }
+.mt-0{ margin-top: 0; }
+
+.border-radius-50{ border-radius: 50%; }
+
+.text-justify{ text-align: justify; }
+
+
+/*------------ SCROLLBAR CSS -----------*/
+.scroll::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #ffffff;
+}
+.scroll::-webkit-scrollbar{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+
+
