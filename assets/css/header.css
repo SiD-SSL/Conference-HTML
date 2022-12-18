@@ -4,7 +4,7 @@
 .hotline{
 	background: var(--primary);
 	padding: 5px 0;
-	color: #ffffff;
+	color: var(--white);
 	font-size: 12px;
 	font-weight: 400;
 	font-family: 'Arimo', sans-serif;
@@ -18,7 +18,7 @@
     padding-top: 4px;
 }
 .hotline .icon a{
-	color: #ffffff;
+	color: var(--white);
 }
 .hotline .icon .fa-envelope{
 	padding-top: 4px;
@@ -30,11 +30,11 @@
 	margin-left: auto;
 }
 .hotline .login a{
-	color: #ffffff;
+	color: var(--white);
 	transition: 0.4s;
 }
 .hotline .login a:hover{
-	color: #fbaa33;
+	color: var(--hover);
 }
 .hotline .form{
 	position: fixed;
@@ -105,10 +105,10 @@
 	-webkit-box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
 	-moz-box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
 	box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
-	color: #ffffff;
+	color: var(--white);
 }
 .hotline .form h2{
-	color: #ffffff;
+	color: var(--white);
 	font-size: 22px;
 	font-weight: 400;
 	font-family: 'Arimo', sans-serif;

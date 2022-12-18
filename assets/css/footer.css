@@ -10,13 +10,13 @@
     padding-left: 0 !important;
 }
 .footer-part .company-info p {
-    color: #ffffff;
+    color: var(--white);
     font-size: 14px;
     
     margin-top: 30px;
 }
 .footer-part .company-info span {
-    color: #ffffff;
+    color: var(--white);
     display: block;
     font-size: 14px;
     
@@ -30,18 +30,18 @@
     line-height: 42px;
     text-align: center;
     border-radius: 50%;
-    background: #ffffff;
+    background: var(--white);
     color: var(--primary);
 	transition: .6s;
 	font-size: 23px;
 	cursor: pointer;
 }
 .footer-part .company-info i:hover{
-    background: #fbaa33;
-    color: #fff;
+    background: var(--hover);
+    color: var(--white);
 }
 .footer-part .quick-links h3 {
-     color: #ffffff;
+     color: var(--white);
 	margin-top: 48px;
 	font-weight: 700;
 	font-size: 20px;
@@ -53,30 +53,30 @@
 	font-size: 14px;
 	padding-bottom: 5px !important;
     margin-left: 5px;
-     color: #ffffff;
+     color: var(--white);
 	 transition: 0.4s;
 	 cursor: pointer;
 }
 .footer-part .quick-links p:hover{
-	color: #fbaa33;
+	color: var(--hover);
 }
 .footer-part .quick-links p {
     
 	font-size: 14px;
 	padding-bottom: 5px !important;
     margin-left: 5px;
-	 color: #ffffff;
+	 color: var(--white);
 	 transition: 0.4s;
 	 cursor: pointer;
 }
 .footer-part .quick-links p:hover{
-	color: #fbaa33;
+	color: var(--hover);
 }
 .footer-part .quick-links .g{
     margin-top: 119px;
 }
 .footer-part .contact-part h4{
-     color: #ffffff;
+     color: var(--white);
     margin-top: 47px;
     font-size: 20px;
     
@@ -84,8 +84,8 @@
     font-weight: 700;
 }
 .footer-part  .contact .location p{
-    font-size: 15px;
-    color: #fff;
+    font-size: 13px;
+    color: var(--white);
 }
 .footer-part  .contact .location{
 	margin-bottom: 15px;
@@ -96,7 +96,7 @@
 .footer-part  .contact .location i {
     font-size: 20px;
     color: var(--primary);
-    background: #ffffff;
+    background: var(--white);
     height: 45px;
     width: 45px;
     line-height: 45px;
@@ -108,8 +108,8 @@
     margin-right: 20px;
 }
 .footer-part  .contact .location i:hover{
-    background: #fbaa33;
-    color: #fff;
+    background: var(--hover);
+    color: var(--white);
 }
 .footer-part  .contact .location p .enve{
     font-size: 20px;
@@ -118,16 +118,16 @@
     transform: rotate(-100deg);
 }
 .footer-part  .contact .location .text .title{
-	color: #fbaa33;
+	color: var(--white);
 	font-family: 'Arimo';
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 14px;
 	padding-bottom: 3px;
 	text-align: left !important;
 	text-transform: uppercase;
 }
 .footer-part .company-info .img{
-    width: 80px;
+    width: 180px;
     height: 60px;
 }
 /*======================================
@@ -153,7 +153,7 @@
 	width: 100%;
 }
 .footer_plugin .common .overlay p{
-	background: #ffffff;
+	background: var(--white);
 	padding: 10px 20px;
 	font-weight: 400;
 	font-size: 15px;
@@ -175,8 +175,8 @@
 	cursor: pointer;
 }
 .footer_plugin .common p:hover{
-	background: #fbaa33;
-	color: #ffffff;
+	background: var(--hover);
+	color: var(--white);
 }
 /*======================================
 		Footer_Plugin Section End
@@ -184,14 +184,15 @@
 /*======================================
 		Copyright Section Start
 ======================================*/
-.copyright{
-	background: var(--primary);
-	text-align: center;
-	color: #fff;
-	padding: 10px 0;
+.copyright {
+    background: var(--primary);
+    text-align: center;
+    color: var(--white);
+    padding: 10px 0;
+    font-size: 14px;
 }
 .copyright span{
-	color: #fbaa33;
+	color: var(--hover);
 }
 /*======================================
 		Copyright Section End

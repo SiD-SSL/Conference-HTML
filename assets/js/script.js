@@ -36,6 +36,11 @@ $(document).ready(function(){
         $(".login_form").fadeIn();
     })
 
+    $('.event-part .item').click(function(){
+        $(this).find('.checkbox').toggle();
+        $(this).toggleClass('selected');
+    })
+
 });
 
 

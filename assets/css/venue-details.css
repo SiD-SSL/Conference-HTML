@@ -1,0 +1,53 @@
+.venue-details{
+
+}
+.venue-details .tab-btn{
+    background-color: none;
+    background: none;
+}
+.venue-details .tab-content{
+
+}
+.venue-details .nav-pills .nav-link{
+    background: #f1f4f2;
+    color: white;
+    border-radius: 0;
+}
+.venue-details .nav-pills .nav-link i{
+    color: var(--primary);
+}
+.venue-details .tab-name{
+    line-height: initial;
+    color: var(--primary);
+}
+.venue-details .nav-pills .nav-link.active{
+    background: var(--primary);
+    position: relative;
+}
+.venue-details .nav-pills .nav-link.active i{
+    color: var(--white);
+}
+.venue-details .nav-pills .nav-link.active .tab-name{
+    color: var(--white);
+}
+.venue-details .nav-pills .nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 30px;
+    height: 30px;
+    z-index: -1;
+    background-color: var(--primary);
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+.venue-details .tab-content{
+
+}
+
+/*********************************
+*        PHOTO GALLERY CSS       *
+*********************************/
+.venue-details .tab-content .photo-gallery{
+    
+}

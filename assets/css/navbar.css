@@ -14,38 +14,11 @@
 	height: 100px;
 	width: 100%;
 }
-.nav .btn{
-	margin-left: 30px;
-	display: flex;
-	align-items: center;
-	width: 20%;
-	justify-content: flex-end;
-	padding: 0 !important;
-	border: 0 !important;
-	border-radius: 0 !important;
-}
-.nav .btn a{
-	display: inline-block;
-	color: #ffffff;
-	background: var(--primary);
-	font-size: 18px;
-	font-weight: 400;
-	padding: 10px 20px;
-	border-radius: 6px;
-	margin-top: 20px;
-	transition: .4s;
-}
-.nav .btn a:hover{
-	background: #fbaa33;
-}
-/*======================================
-			.nav Bar Section End
-======================================*/
 .navbar {
 	padding: 1em 0em;
 	box-shadow: 0 7px 26px rgba(0, 0, 0, 0.1);
 	position: relative;
-	background-color: var(--red) !important;
+	background-color: var(--primary) !important;
 }
 .navbar .header-nav {
 	float: right;
@@ -55,22 +28,22 @@
     font-size: 14px;
     position: relative;
     font-weight: 400;
-    padding: 20px 15px;
+    padding: 21px 15px 20px 15px;
 }
 .navbar .header-nav > ul > li > a{
 	margin-right: 15px;
-    color: #fff !important;
+    color: var(--white) !important;
 	text-transform: uppercase;
 	transition: 0.4s;
 }
 .navbar .header-nav > ul > li > a:hover {
-	color: #fff;
+	color: var(--white);
 	background: var(--hover);
 	z-index: 200;
 }
 .navbar .header-nav ul li a.active {
 	color: #2ae0bc;
-	background: #fff;
+	background: var(--white);
 	z-index: 200;
 }
 .navbar .header-nav ul li a:hover:before, 
@@ -81,7 +54,7 @@
 	height: 100%;
 	bottom: 0px;
 	background: var(--red);
-	color: #fff !important;
+	color: var(--white) !important;
 	left: 0px;
 	z-index: -1;
 	animation: 0.8s alternate ElasticOvr;
@@ -100,7 +73,7 @@
 	left: 0px;
 	width: 190px;
 	padding: 0px;	
-	background: #fff;
+	background: var(--primary);
 	z-index: 90;
 	opacity: 0;
 	display: flex;
@@ -125,7 +98,7 @@
     list-style-type: none;
     font-size: 14px;
     font-weight: 400;
-    color: #28282B;
+    color: var(--white);
     padding: 10px 15px;
     display: inline-block;
     width: 100%;
@@ -133,7 +106,7 @@
 }
 .navbar .header-nav ul.innernav li a:hover {
 	text-decoration: none;
-	color: #ffffff !important;
+	color: var(--white) !important;
 }
 .navbar .header-nav ul li:hover ul.innernav {
 	opacity: 1;

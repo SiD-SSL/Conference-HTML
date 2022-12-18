@@ -6,15 +6,11 @@
 	transition: 0.4s !important;
 }
 .banner .one{
-	background: url(../images/banner3.jpg) no-repeat left;
+	background: url(https://www.iacconline.org/wp-content/uploads/about_header.jpg) no-repeat left;
 	background-size: cover;
 }
 .banner .two{
-	background: url(../images/banner2.jpg) no-repeat left;
-	background-size: cover;
-}
-.banner .three{
-	background: url(../images/banner1.png) no-repeat left;
+	background: url(https://www.venues.org.uk/assets/images_files/featured_venue/The_Grosvenor.jpg) no-repeat left;
 	background-size: cover;
 }
 .banner .common .overlay{
@@ -28,7 +24,7 @@
 	font-size: 40px;
 	font-family: 'Arimo', sans-serif;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: var(--white);
 	margin-bottom: 0 !important;
 }
 .banner .common h1{
@@ -36,13 +32,13 @@
 	font-size: 52px;
 	font-family: 'Arimo', sans-serif;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: var(--white);
 }
 .banner .common p{
 	font-weight: 400;
 	font-size: 14px;
 	font-family: 'Arimo', sans-serif;
-	color: #ffffff;
+	color: var(--white);
 	line-height: 20px;
 	width: 53%;
 	margin-bottom: 60px !important;
@@ -52,7 +48,7 @@
 	top: 47%;
 	z-index: 1;
 	font-size: 30px;
-	color: #ffffff;
+	color: var(--white);
 	font-weight: bolder;
 	width: 60px;
 	height: 60px;
@@ -86,7 +82,7 @@
 }
 .banner .slick-dots li {
     border: none;
-    background: #ffffff;
+    background: var(--white);
     margin: 0px 3px 0 3px;
     width: 30px;
     height: 5px;
@@ -221,20 +217,28 @@
     box-sizing: border-box;
 	transition: .6s;
 	border: 1px solid transparent;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 25px;
 }
 .event-part .item:hover{
 	box-shadow: 0 7px 50px rgba(0, 0, 0, 0.15);
 	border-color: #dddddd;
+}
+.event-part .item.selected{
+	box-shadow: 0 7px 50px rgba(0, 0, 0, 0.15);
+	border-color: var(--red);
 }
 .event-part .item .left-side {
 	position: relative;
 }
 .event-part .item .left-side .img {
     width: 100%;
-	height: 160px;
+	height: 200px;
 }
 .event-part .item .right-side .item-title {
     font-size: 20px;
+	margin-top: 10px;
     font-family: 'Arimo', sans-serif;
     font-weight: 600;
     color: var(--primary);
@@ -260,31 +264,36 @@
 	font-size: 16px;
 	transition: .6s;
 }
-.event-part .item .right-side a {
+.event-part .item .right-side .item-btn {
     display: inline-block;
     background: var(--primary);
-    padding: 10px 20px;
-    color: #fff;
+    padding: 8px 20px;
+    color: var(--white);
     font-size: 16px;
     font-family: 'Arimo', sans-serif;
     border-radius: 4px;
-    margin-top: 12px;
+    margin-top: 0px;
     transition: .6s;
 }
 .event-part .item:hover .right-side .p i{
     color: var(--red);
 }
-.event-part .item:hover a {
+.event-part .item:hover .item-btn {
     background: var(--red);
+	color: var(--white) !important;
 }
-.event-part .item:hover .item-title {
+.event-part .item .item-title a{
+    color: #28282B;
+	transition: 0.4s;
+}
+.event-part .item:hover .item-title a{
     color: var(--red);
 }
 .event-part .item .overlay{
 	position: absolute;
-	bottom: 2px;
+	bottom: 0px;
 	right: 0;
-	background: #ff0000;
+	background: var(--red);
 	color: #f1f1f1;
 	padding: 8px 15px;
 	transition: 0.4s;
@@ -296,6 +305,26 @@
 	font-family: 'Arimo', sans-serif;
 	text-align: center;
 	margin-bottom: 0 !important;
+}
+.event-part .aminities img{
+	width: 20px;
+	height: 20px;
+}
+.event-part .checkbox{
+	display: none;
+}
+.event-part .selected .checkbox {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+	display: block;
+    z-index: 99;
+}
+.event-part .item-bottom {
+    align-items: center;
+    justify-content: space-between;
 }
 /*======================================
 		Event Section End
