@@ -1,11 +1,12 @@
 /*--------------- ROOT VARIABLE ----------------*/
 :root {
-    --primary: #005771;
+    --primary: #2d3e50;
     --secondary: #005771;
-    --hover:  #005771;
-    --shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+    --hover:  #c00;
+    --red: #d31e20;
     --text: #333;
     --gray: #808080;
+    --shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     --pfamily: 'Open Sans', sans-serif;
     --sfamily: 'Questrial', sans-serif;
 }

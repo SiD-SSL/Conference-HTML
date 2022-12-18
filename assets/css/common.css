@@ -58,15 +58,15 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 /*---------- Common title CSS ----------*/
 .title{
 	text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 }
 .title h1{
 	font-size: 32px;
-	color: #2d3e50;
+	color: var(--primary);
 	font-family: 'Arimo', sans-serif;
 	font-weight: 500;
 	text-transform: capitalize;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 .title p{
 	color: #666666;
@@ -80,21 +80,22 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 
 
 /*--------- Common Button CSS ---------*/
-.button a{
-	display: inline-block;
-	color: #ffffff;
-	font-size: 20px;
-	background: #2d3e50;
-	font-weight: 400;
-	font-family: 'Arimo', sans-serif;
-	padding: 13px 22px;
-	border-radius: 5px;
-	margin-right: 20px;
-	transition: 0.4s;
-	text-transform: capitalize;
+.button a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    background: var(--primary);
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.4s;
+    text-transform: capitalize;
 }
 .button a:hover{
-	background: #fbaa33;
+	color: white !important;
+	background: var(--red);
 }
 
 /*------------ SCROLLBAR CSS -----------*/
@@ -106,6 +107,18 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 	width: 5px;
 	background-color: #F5F5F5;
 }
+
+
+.wow {
+	animation-duration: 1.5s;
+}
+.animation-duration-1s {
+	animation-duration: 1s;
+}
+
 /*======================================
 			Common CSS End
 ======================================*/
+.padding-left-0{
+	padding-left: 0;
+}

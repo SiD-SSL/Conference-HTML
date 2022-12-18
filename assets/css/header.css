@@ -2,20 +2,20 @@
 			Hotline Section Start
 ======================================*/
 .hotline{
-	background: #2d3e50;
-	padding: 10px 0;
+	background: var(--primary);
+	padding: 5px 0;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 	font-family: 'Arimo', sans-serif;
 }
 .hotline .icon1{
 	margin: 0 30px;
 }
-.hotline .icon .fa-phone{
-	transform: rotateY(190deg);
-	font-size: 19px;
-	padding-top: 2px;
+.hotline .icon .fa-phone {
+    transform: rotateY(190deg);
+    font-size: 13px;
+    padding-top: 4px;
 }
 .hotline .icon a{
 	color: #ffffff;

@@ -55,8 +55,8 @@ $('.demo-slider').slick({
 // 		Banner Plugin Start
 // ======================================
 $('.banner').slick({
-  dots: false,
-  arrows: true,
+  dots: true,
+  arrows: false,
   autoplay: false,
   infinite: true,
   speed: 600,

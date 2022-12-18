@@ -3,19 +3,12 @@
 			Nav Bar Section Start
 ======================================*/
 .nav{
-	padding: 23px 0 35px 0;
+	padding: 23px 0 23px 0;
 	background: #f8f9fa;
-}
-.nav .logo{
-	width: 40%;
-	margin-top: 5px;
 }
 .nav .logo .logo-img{
 	width: 200px;
 	height: 80px;
-}
-.nav .navbar-ad{
-	width: 60%;
 }
 .nav .navbar-ad .img{
 	height: 100px;
@@ -34,10 +27,9 @@
 .nav .btn a{
 	display: inline-block;
 	color: #ffffff;
-	background: #2d3e50;
+	background: var(--primary);
 	font-size: 18px;
 	font-weight: 400;
-	font-family: 'Arimo', sans-serif;
 	padding: 10px 20px;
 	border-radius: 6px;
 	margin-top: 20px;
@@ -49,20 +41,248 @@
 /*======================================
 			.nav Bar Section End
 ======================================*/
-.navbar{
-	background-color: #d31e20 !important;
+.navbar {
+	padding: 1em 0em;
+	box-shadow: 0 7px 26px rgba(0, 0, 0, 0.1);
+	position: relative;
+	background-color: var(--red) !important;
 }
-.navbar .dropdown{
+.navbar .header-nav {
+	float: right;
 	position: relative;
 }
-.navbar .dropdown .dropdown-menu{
-	position: absolute;
-	left: 0;
-	top: 50px;
-	z-index: 99;
-	background-color: #d31e20 !important;
-	display: none;
+.navbar .header-nav ul li a {
+    font-size: 14px;
+    position: relative;
+    font-weight: 400;
+    padding: 20px 15px;
 }
-.navbar .dropdown:hover .dropdown-menu{
-	display: block;
+.navbar .header-nav > ul > li > a{
+	margin-right: 15px;
+    color: #fff !important;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+.navbar .header-nav > ul > li > a:hover {
+	color: #fff;
+	background: var(--hover);
+	z-index: 200;
+}
+.navbar .header-nav ul li a.active {
+	color: #2ae0bc;
+	background: #fff;
+	z-index: 200;
+}
+.navbar .header-nav ul li a:hover:before, 
+.navbar .header-nav ul li a.active:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	bottom: 0px;
+	background: var(--red);
+	color: #fff !important;
+	left: 0px;
+	z-index: -1;
+	animation: 0.8s alternate ElasticOvr;
+	-webkit-animation: 0.8s alternate ElasticOvr;
+	transition: all cubic-bezier(0, 0.52, 0.25, 1) 0.3s;
+	-webkit-transition: all cubic-bezier(0, 0.52, 0.25, 1) 0.3s;
+	-moz-transition: all cubic-bezier(0, 0.52, 0.25, 1) 0.3s;
+}
+.navbar .inner-nav-li{
+	position: relative;
+}
+  /* Mobile humberger menu style */
+.navbar .innernav {
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	width: 190px;
+	padding: 0px;	
+	background: #fff;
+	z-index: 90;
+	opacity: 0;
+	display: flex;
+    flex-direction: column;
+	visibility: hidden;
+	transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.5s;
+	-webkit-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-moz-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-o-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+}
+.navbar ul.innernav li {
+	list-style-type: none;
+	font-size: 13px;
+	color: #666;
+	opacity: 0;
+	visibility: hidden;
+	transform: translate3d(0px, -12px, 0px);
+	-webkit-transform: translate3d(0px, -12px, 0px);
+	-moz-transform: translate3d(0px, -12px, 0px);
+}
+.navbar .header-nav ul.innernav li a {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #28282B;
+    padding: 10px 15px;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+}
+.navbar .header-nav ul.innernav li a:hover {
+	text-decoration: none;
+	color: #ffffff !important;
+}
+.navbar .header-nav ul li:hover ul.innernav {
+	opacity: 1;
+	visibility: visible;
+	transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-webkit-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-moz-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-o-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+}
+.navbar .header-nav ul li:hover ul.innernav li {
+	opacity: 1;
+	visibility: visible;
+	transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-webkit-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-moz-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+	-o-transition: cubic-bezier(0.25, 0.1, 0.32, 0.83) 0.3s;
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(1) {
+	-webkit-transition-delay: 180ms;
+	transition-delay: 180ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(2) {
+	-webkit-transition-delay: 280ms;
+	transition-delay: 280ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(3) {
+	-webkit-transition-delay: 380ms;
+	transition-delay: 380ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(4) {
+	-webkit-transition-delay: 480ms;
+	transition-delay: 480ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(5) {
+	-webkit-transition-delay: 580ms;
+	transition-delay: 580ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(6) {
+	-webkit-transition-delay: 680ms;
+	transition-delay: 680ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(7) {
+	-webkit-transition-delay: 780ms;
+	transition-delay: 780ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(8) {
+	-webkit-transition-delay: 880ms;
+	transition-delay: 880ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+.navbar .header-nav ul li:hover ul.innernav li:nth-child(9) {
+	-webkit-transition-delay: 980ms;
+	transition-delay: 980ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+}
+  
+/* Menu hover Drop Down */
+/* Elastic hover animation */
+@-webkit-keyframes ElasticOvr {
+	0% {
+	  top: 0;
+	  height: 0px;
+	}
+	50% {
+	  top: 0;
+	  height: 100%;
+	}
+	100% {
+	  top: 0px;
+	  height: 100%;
+	}
+}
+@-moz-keyframes ElasticOvr {
+	0% {
+	  top: 0;
+	  height: 0px;
+	}
+	50% {
+	  top: 0;
+	  height: 100%;
+	}
+	100% {
+	  top: 0px;
+	  height: 100%;
+	}
+}
+@keyframes ElasticOvr {
+	0% {
+	  top: 0;
+	  height: 0px;
+	}
+	50% {
+	  top: 0;
+	  height: 100%;
+	}
+	100% {
+	  top: 0px;
+	  height: 100%;
+	}
+}
+  
+/* RESPONSIVE CODE*/
+@media screen and (max-width: 990px) {
+	.navbar-header {
+	  float: none;
+	  display: block;
+	  text-align: center;
+	}
+  
+	.header-nav {
+	  float: none !important;
+	  text-align: center;
+	}
+	.header-nav .navbar-nav {
+	  float: none;
+	}
+	.header-nav .navbar-nav li {
+	  float: none;
+	  display: inline-block;
+	}
+}
+@media screen and (max-width: 768px) {
+	.navbar .navbar-header {
+	  float: left;
+	  margin: 0;
+	}
 }
