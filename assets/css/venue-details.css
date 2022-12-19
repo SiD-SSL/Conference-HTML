@@ -92,3 +92,18 @@
 .venue-details .tab-content .information-tab .title-td{
     padding-left: 10px;
 }
+.venue-details .tab-content .information-tab thead tr{
+    border: none;
+}
+.venue-details .tab-content .information-tab thead tr th{
+    border: none;
+}
+.venue-details .tab-content .information-tab tbody{
+    border-color: #ccc;
+}
+.venue-details .tab-content .information-tab tbody tr{
+    border-color: #ccc;
+}
+.venue-details .tab-content .information-tab tbody tr td{
+    border-color: #ccc;
+}
