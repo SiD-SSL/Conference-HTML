@@ -48,6 +48,47 @@
 /*********************************
 *        PHOTO GALLERY CSS       *
 *********************************/
-.venue-details .tab-content .photo-gallery{
-    
+.venue-details .tab-content .photo-gallery {
+    padding: 0 0px 50px 0;
+}
+.venue-details .tab-content .video{
+    height: 300px;
+    margin-bottom: 30px;
+}
+.venue-details .tab-content .details{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.venue-details .tab-content .facilities-tab{
+    margin-bottom: 50px;
+}
+.venue-details .tab-content .facilities-tab .item{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.venue-details .tab-content .facilities-tab .item .img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.venue-details .tab-content .photo-gallery .thumbnails .img img{
+    width: 100%;
+    height: 95px;
+}
+.venue-details .tab-content .information-tab .information-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.venue-details .tab-content .information-tab .guest-wise-price{
+    margin-top: 30px;
+}
+.venue-details .tab-content .information-tab{
+    margin-bottom: 50px;
+}
+.venue-details .tab-content .information-tab .table>:not(:first-child) {
+    border-top-width: 1px;
+    border-color: #f1f1f1;
+}
+.venue-details .tab-content .information-tab .title-td{
+    padding-left: 10px;
 }

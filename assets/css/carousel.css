@@ -23,23 +23,14 @@
 	}
 }
 .thumbnails .selected div:before {
-	border-color: #e57649;
-	background: #e57649;
+	border-color: var(--red);
+	background: var(--red);
 }
 
 
 /*-------------------------------------------------------------------------------------------*/
 /* Core CSS */
 /*-------------------------------------------------------------------------------------------*/
-@font-face {
-	font-family: 'Font Awesome';
-	src: url('fonts/fontawesome/fontawesome-webfont.eot');
-	src: url('fonts/fontawesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/fontawesome/fontawesome-webfont.woff') format('woff'),
-		url('fonts/fontawesome/fontawesome-webfont.ttf') format('truetype'),
-		url('fonts/fontawesome/fontawesome-webfont.svg#svgFontName') format('svg');
-}
-
 .carousel {
 	position: relative;
 	overflow: hidden;
@@ -153,7 +144,7 @@
 	display: block;
 	color: #fff;
 	font-family: Font Awesome, sans-serif;
-	content: "\f104";
+	content: "\2190";
 }
 .next {
 	opacity: 0;
@@ -175,7 +166,7 @@
 	display: block;
 	color: #fff;
 	font-family: Font Awesome, sans-serif;
-	content: "\f105";
+	content: "\2192";
 }
 
 .thumbnails {
@@ -187,7 +178,7 @@
 	overflow: hidden;
 	list-style: none;
 	margin: 0;
-	padding: 3px;
+	padding: 10px 5px;
 }
 .thumbnails li {
 	float: left;
@@ -199,11 +190,11 @@
 .thumbnails .selected div:before {
 	display: block;
 	position: absolute;
-	left: -6px;
-	top: -6px;
+	left: -2px;
+	top: -2px;
 	width: 100%;
 	height: 100%;
-	border-width: 6px;
+	border-width: 2px;
 	border-style: solid;
 	content: "";
 	-webkit-box-sizing: content-box;
