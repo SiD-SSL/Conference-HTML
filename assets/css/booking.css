@@ -1,0 +1,253 @@
+.booking-section{
+    margin: 30px 0;
+  }
+.did-floating-label-content {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .did-floating-label {
+    color: #28282B;
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 11px;
+    padding: 0 5px;
+    height: 13px;
+    line-height: 13px;
+    background: #fff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  .did-floating-input, .did-floating-select {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 0 20px;
+    background: #fff;
+    color: #323840;
+    font-weight: 400;
+    border: 1px solid var(--primary);
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  .did-floating-input:focus, .did-floating-select:focus {
+    outline: none;
+  }
+  .did-floating-input:focus ~ .did-floating-label, .did-floating-select:focus ~ .did-floating-label {
+    top: -8px;
+    font-size: 13px;
+  }
+  
+  .did-floating-label-content .did-floating-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .did-floating-label-content .did-floating-select::-ms-expand {
+    display: none;
+  }
+  
+  .did-floating-input:not(:placeholder-shown) ~ .did-floating-label {
+    top: -8px;
+    font-size: 13px;
+  }
+  
+  .did-floating-select:not([value=""]):valid ~ .did-floating-label {
+    top: -8px;
+    font-size: 13px;
+  }
+  
+  .did-floating-select[value=""]:focus ~ .did-floating-label {
+    top: 11px;
+    font-size: 13px;
+  }
+  
+  .did-floating-select:not([multiple]):not([size]) {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='6' viewBox='0 0 8 6'%3E%3Cpath id='Path_1' data-name='Path 1' d='M371,294l4,6,4-6Z' transform='translate(-371 -294)' fill='%23003d71'/%3E%3C/svg%3E%0A");
+    background-position: right 15px top 50%;
+    background-repeat: no-repeat;
+  }
+  
+  .did-floating-label-content .input-group {
+    display: flex;
+  }
+  .did-floating-label-content .input-group .did-floating-input {
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    padding-left: 0;
+  }
+  
+  .did-floating-label-content .input-group-append {
+    display: flex;
+    align-items: center;
+  }
+  
+  .did-floating-label-content .input-group-text {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    height: 34px;
+    color: #323840;
+    padding: 0 5px 0 20px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid var(--primary);
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+  }
+  .toggle-button-cover {
+    display: table-cell;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .button-cover {
+    background-color: #fff;
+    box-shadow: 0 10px 20px -8px #c5d6d6;
+    border-radius: 4px;
+  }
+  
+  /* .button-cover, */
+  .knobs,
+  .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .toggle-button-cover .button {
+    width: 70px;
+    height: 28px;
+    overflow: hidden;
+}
+  
+  .toggle-button-cover .button.r,
+  .toggle-button-cover .button.r .layer {
+    border-radius: 100px;
+  }
+  
+  .toggle-button-cover .button.toggle-button {
+    border-radius: 2px;
+  }
+  
+  .toggle-button-cover .checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .toggle-button-cover .knobs {
+    z-index: 2;
+  }
+  
+  .toggle-button-cover .layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  .toggle-button .knobs:before, .toggle-button .knobs span {
+    content: "YES";
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    background-color: #03a9f4;
+    border-radius: 2px;
+}
+
+.toggle-button .knobs:before {
+    top: 50%;
+    left: 8px;
+    width: 20px;
+    height: 10px;
+    margin-top: -5px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.toggle-button .knobs span {
+    width: 30px;
+    height: 13px;
+    padding: 11px 10px;
+    transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+    z-index: 1;
+    line-height: 13px;
+}
+
+.toggle-button .checkbox:active + .knobs:before {
+  left: 10px;
+  width: 46px;
+  height: 4px;
+  color: transparent;
+  margin-top: -2px;
+  background-color: #0095d8;
+  transition: 0.3s ease all;
+  overflow: hidden;
+}
+
+.toggle-button .checkbox:active + .knobs span {
+  width: 58px;
+}
+
+.toggle-button .checkbox:checked:active + .knobs:before {
+  left: auto;
+  right: 10px;
+  background-color: #d80000;
+}
+
+.toggle-button .checkbox:checked:active + .knobs span {
+  margin-left: -38px;
+}
+
+.toggle-button .checkbox:checked + .knobs:before {
+    content: "NO";
+    left: 43px;
+}
+
+.toggle-button .checkbox:checked + .knobs span {
+    left: 36px;
+    background-color: #f44336;
+}
+
+.toggle-button .checkbox:checked ~ .layer {
+  background-color: #fcebeb;
+}
+.check-in span{
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.booking-section .book-now-btn {
+    float: right;
+    border: none;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: var(--primary);
+    color: white;
+    transition: 0.4s;
+}
+.booking-section .book-now-btn:hover {
+    background: var(--red);
+    color: white;
+}

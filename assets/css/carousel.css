@@ -144,7 +144,9 @@
 	display: block;
 	color: #fff;
 	font-family: Font Awesome, sans-serif;
-	content: "\2190";
+	content: "\25b2";
+    transform: rotate(-90deg);
+    font-size: 35px;
 }
 .next {
 	opacity: 0;
@@ -166,7 +168,9 @@
 	display: block;
 	color: #fff;
 	font-family: Font Awesome, sans-serif;
-	content: "\2192";
+	content: "\25bc";
+	transform: rotate(-90deg);
+    font-size: 35px;
 }
 
 .thumbnails {
