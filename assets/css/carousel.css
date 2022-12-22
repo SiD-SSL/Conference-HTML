@@ -110,7 +110,7 @@
 }
 
 .mobile .controls {
-	display: none;
+	display: block;
 }
 .carousel:hover .prev,
 .carousel:hover .next {

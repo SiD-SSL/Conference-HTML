@@ -116,46 +116,115 @@
     ======================================-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <div class="collapse navbar-collapse header-nav" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li><a href="#!">Home</a></li>
-                <li class="inner-nav-li"><a href="#!">Venue & Services</a>
-                    <ul class="innernav">
-                        <li><a href="#!">Lorem.</a></li>
-                        <li><a href="#!">Lorem ipsum.</a></li>
-                        <li><a href="#!">Lorem ipsum.</a></li>
-                        <li><a href="#!">Lorem ipsum dolor.</a></li>
-                        <li><a href="#!">Lorem ipsum dolor.</a></li>
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-img">
+                    <img src="https://cdn.movemeback.com/media/thumbnails/images/wikimedia-foundation-organisation-logo-20191027-10102111/85b33c2642dada18a664440cf31589e4.jpg" alt="logo">
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse header-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li><a href="#!">Home</a></li>
+                    <li class="inner-nav-li"><a href="#!">Venue & Services</a>
+                        <ul class="innernav">
+                            <li><a href="#!">Lorem.</a></li>
+                            <li><a href="#!">Lorem ipsum.</a></li>
+                            <li><a href="#!">Lorem ipsum.</a></li>
+                            <li><a href="#!">Lorem ipsum dolor.</a></li>
+                            <li><a href="#!">Lorem ipsum dolor.</a></li>
+                        </ul>
+                    </li>
+                    <li class="inner-nav-li"><a href="#!">Floor Plan</a>
+                        <ul class="innernav">
+                            <li><a href="#!">Lorem.</a></li>
+                            <li><a href="#!">Lorem ipsum.</a></li>
+                            <li><a href="#!">Lorem ipsum.</a></li>
+                            <li><a href="#!">Lorem ipsum dolor.</a></li>
+                            <li><a href="#!">Lorem ipsum dolor.</a></li>
+                        </ul>
+                    </li>
+                    <li class="inner-nav-li"><a href="#!">Reservation</a>
+                        <ul class="innernav">
+                            <li><a href="#!">Lorem.</a></li>
+                            <li><a href="#!">Lorem ipsum.</a></li>
+                            <li><a href="#!">Lorem ipsum.</a></li>
+                            <li><a href="#!">Lorem ipsum dolor.</a></li>
+                            <li><a href="#!">Lorem ipsum dolor.</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#!">Management</a></li>
+                    <li><a href="#!">Photos</a></li>
+                    <li><a href="#!">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <button class="btn offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start offcanvas-mobile" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body header-nav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Management</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Venue & Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="#!" class="dropdown-item">Lorem.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum dolor.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum dolor.</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Floor Plan
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="#!" class="dropdown-item">Lorem.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum dolor.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum dolor.</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Reservation
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="#!" class="dropdown-item">Lorem.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum dolor.</a></li>
+                                <li><a href="#!" class="dropdown-item">Lorem ipsum dolor.</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li class="inner-nav-li"><a href="#!">Floor Plan</a>
-                    <ul class="innernav">
-                        <li><a href="#!">Lorem.</a></li>
-                        <li><a href="#!">Lorem ipsum.</a></li>
-                        <li><a href="#!">Lorem ipsum.</a></li>
-                        <li><a href="#!">Lorem ipsum dolor.</a></li>
-                        <li><a href="#!">Lorem ipsum dolor.</a></li>
-                    </ul>
-                </li>
-                <li class="inner-nav-li"><a href="#!">Reservation</a>
-                    <ul class="innernav">
-                        <li><a href="#!">Lorem.</a></li>
-                        <li><a href="#!">Lorem ipsum.</a></li>
-                        <li><a href="#!">Lorem ipsum.</a></li>
-                        <li><a href="#!">Lorem ipsum dolor.</a></li>
-                        <li><a href="#!">Lorem ipsum dolor.</a></li>
-                    </ul>
-                </li>
-                <li><a href="#!">Management</a></li>
-                <li><a href="#!">Photos</a></li>
-                <li><a href="#!">Contact Us</a></li>
-            </ul>
-          </div>
+                </div>
+            </div>
 
         </div>
     </nav>
@@ -205,7 +274,7 @@
     <section class="aboutus">
         <div class="container">
             <div class="row main">
-                <div class="col-lg-6 padding-left-0">
+                <div class="col-lg-6 padding-left-0 about-us-iframe">
                     <div class="about-us-img wow animate__fadeInUp">
                         <iframe width="100%" 
                                 height="100%" 
@@ -221,7 +290,7 @@
                     <h4 class="about-title wow animate__fadeInUp">What Is LOREM?</h4>
                     <p class="about-desc wow animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus coodo vivera maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     <div class="button wow animate__fadeInUp">
-                        <a href="#">Learn more</a>
+                        <a href="#" class="gradient-ghost-btn-lg gradient-color-test live">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -265,12 +334,12 @@
                             <p class="short-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque odit assumenda, aliquam ipsam deleniti quos quae asperiores. Modi necessitatibus commodi nisi quam obcaecati, harum libero praesentium quidem voluptates dolores. Id aut voluptate tenetur deserunt...<a href="venue-details.html">Read More</a></p> 
                             <div class="d-flex item-bottom">
                                 <div class="aminities"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_manager.gif" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/food_served.gif" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/vip.gif" alt="VIP Access" title="VIP Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/parking.gif" alt="Car Park" title="Car Park" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/live_entertainment.gif" alt="Live Entertainment" title="Live Entertainment" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/big_screens.gif" alt="TV Monitors" title="TV Monitors" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_documentation.gif" alt="Event Documentation" title="Event Documentation" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/disabled_access.gif" alt="Disabled Access" title="Disabled Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/guest_rooms.gif" alt="Guestrooms" title="Guestrooms" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/drinks_served.gif" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/a.png" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
+                                    <img src="assets/images/aminities/b.png" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> 
+                                    <img src="assets/images/aminities/c.png" alt="VIP Access" title="VIP Access" class="feature-icon"> 
+                                    <img src="assets/images/aminities/d.png" alt="Guestrooms" title="Guestrooms" class="feature-icon"> 
+                                    <img src="assets/images/aminities/e.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/f.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
                                 </div>
                                 <a class="item-btn" href="booking.html">Book Now</a>
                             </div>
@@ -297,12 +366,12 @@
                             <p class="short-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque odit assumenda, aliquam ipsam deleniti quos quae asperiores. Modi necessitatibus commodi nisi quam obcaecati, harum libero praesentium quidem voluptates dolores. Id aut voluptate tenetur deserunt...<a href="venue-details.html">Read More</a></p> 
                             <div class="d-flex item-bottom">
                                 <div class="aminities"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_manager.gif" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/food_served.gif" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/vip.gif" alt="VIP Access" title="VIP Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/parking.gif" alt="Car Park" title="Car Park" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/live_entertainment.gif" alt="Live Entertainment" title="Live Entertainment" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/big_screens.gif" alt="TV Monitors" title="TV Monitors" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_documentation.gif" alt="Event Documentation" title="Event Documentation" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/disabled_access.gif" alt="Disabled Access" title="Disabled Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/guest_rooms.gif" alt="Guestrooms" title="Guestrooms" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/drinks_served.gif" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/a.png" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
+                                    <img src="assets/images/aminities/b.png" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> 
+                                    <img src="assets/images/aminities/c.png" alt="VIP Access" title="VIP Access" class="feature-icon"> 
+                                    <img src="assets/images/aminities/d.png" alt="Guestrooms" title="Guestrooms" class="feature-icon"> 
+                                    <img src="assets/images/aminities/e.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/f.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
                                 </div>
                                 <a class="item-btn" href="booking.html">Book Now</a>
                             </div>
@@ -329,12 +398,12 @@
                             <p class="short-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque odit assumenda, aliquam ipsam deleniti quos quae asperiores. Modi necessitatibus commodi nisi quam obcaecati, harum libero praesentium quidem voluptates dolores. Id aut voluptate tenetur deserunt...<a href="venue-details.html">Read More</a></p> 
                             <div class="d-flex item-bottom">
                                 <div class="aminities"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_manager.gif" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/food_served.gif" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/vip.gif" alt="VIP Access" title="VIP Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/parking.gif" alt="Car Park" title="Car Park" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/live_entertainment.gif" alt="Live Entertainment" title="Live Entertainment" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/big_screens.gif" alt="TV Monitors" title="TV Monitors" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_documentation.gif" alt="Event Documentation" title="Event Documentation" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/disabled_access.gif" alt="Disabled Access" title="Disabled Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/guest_rooms.gif" alt="Guestrooms" title="Guestrooms" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/drinks_served.gif" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/a.png" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
+                                    <img src="assets/images/aminities/b.png" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> 
+                                    <img src="assets/images/aminities/c.png" alt="VIP Access" title="VIP Access" class="feature-icon"> 
+                                    <img src="assets/images/aminities/d.png" alt="Guestrooms" title="Guestrooms" class="feature-icon"> 
+                                    <img src="assets/images/aminities/e.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/f.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
                                 </div>
                                 <a class="item-btn" href="booking.html">Book Now</a>
                             </div>
@@ -361,12 +430,12 @@
                             <p class="short-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque odit assumenda, aliquam ipsam deleniti quos quae asperiores. Modi necessitatibus commodi nisi quam obcaecati, harum libero praesentium quidem voluptates dolores. Id aut voluptate tenetur deserunt...<a href="venue-details.html">Read More</a></p> 
                             <div class="d-flex item-bottom">
                                 <div class="aminities"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_manager.gif" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/food_served.gif" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/vip.gif" alt="VIP Access" title="VIP Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/parking.gif" alt="Car Park" title="Car Park" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/live_entertainment.gif" alt="Live Entertainment" title="Live Entertainment" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/big_screens.gif" alt="TV Monitors" title="TV Monitors" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/event_documentation.gif" alt="Event Documentation" title="Event Documentation" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/disabled_access.gif" alt="Disabled Access" title="Disabled Access" class="feature-icon"> 
-                                    <img src="https://www.venues.org.uk/assets/images/features/guest_rooms.gif" alt="Guestrooms" title="Guestrooms" class="feature-icon"> <img src="https://www.venues.org.uk/assets/images/features/drinks_served.gif" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/a.png" alt="Hostess/Event Manager" title="Hostess/Event Manager" class="feature-icon"> 
+                                    <img src="assets/images/aminities/b.png" alt="Food &amp; Drinks" title="Food &amp; Drinks" class="feature-icon"> 
+                                    <img src="assets/images/aminities/c.png" alt="VIP Access" title="VIP Access" class="feature-icon"> 
+                                    <img src="assets/images/aminities/d.png" alt="Guestrooms" title="Guestrooms" class="feature-icon"> 
+                                    <img src="assets/images/aminities/e.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
+                                    <img src="assets/images/aminities/f.png" alt="Drinks Served" title="Drinks Served" class="feature-icon"> 
                                 </div>
                                 <a class="item-btn" href="booking.html">Book Now</a>
                             </div>
@@ -396,8 +465,7 @@
                             <img src="https://cdn.movemeback.com/media/thumbnails/images/wikimedia-foundation-organisation-logo-20191027-10102111/85b33c2642dada18a664440cf31589e4.jpg" alt="logo">
                         </div>
                     </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <span>Ut enim ad minim veniam, quis nostrud exercitation ullmco laboris nisi ut aliquip ex ea.</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullmco laboris nisi ut aliquip ex ea.</p>
                     <div class="icon">
                         <i class="fab fa-facebook" aria-hidden="true"></i>
                         <i class="fab fa-twitter" aria-hidden="true"></i>
@@ -405,8 +473,8 @@
                         <i class="fab fa-instagram" aria-hidden="true"></i>
                     </div>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 quick-links wow animate__fadeInUp">
+                <div class="m-d-none col-lg-1"></div>
+                <div class="m-col col-lg-3 quick-links wow animate__fadeInUp">
                     <h3>Quick Links</h3>
                     <p>Home</p>
                     <p>About us</p>
@@ -414,7 +482,7 @@
                     <p>Contact us</p>
                     <p>FAQ’s</p>
                 </div>
-                <div class="col-lg-4 contact-part wow animate__fadeInUp">
+                <div class="m-col col-lg-4 contact-part wow animate__fadeInUp">
                     <h4>Contact Informations</h4>
                     <div class="contact">
                         <div class="location d-flex location1">
@@ -431,7 +499,7 @@
                                 <p class="phone">+880 1234 5678,  02 0987 654</p>
                             </div>
                         </div>
-                        <div class="location d-flex">
+                        <div class="location contact-email d-flex">
                             <i class="fas fa-envelope enve" enve aria-hidden="true"></i>
                             <div class="text">
                                 <p class="title">E-mail</p>
@@ -474,8 +542,7 @@
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <script> new WOW().init(); </script>
+
 </body>
 </html>

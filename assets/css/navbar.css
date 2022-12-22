@@ -20,6 +20,24 @@
 	position: relative;
 	background-color: var(--primary) !important;
 }
+.navbar .navbar-brand{
+	display: none;
+}
+.offcanvas-mobile{
+	display: none;
+}
+.offcanvas-btn{
+	display: none;
+}
+.offcanvas-btn{
+	background: var(--white);
+	color: var(--primary);
+	padding: 0px 3px;
+}
+.navbar .navbar-brand .logo-img{
+	width: 200px;
+	height: 80px;
+}
 .navbar .header-nav {
 	float: right;
 	position: relative;

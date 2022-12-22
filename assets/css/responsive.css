@@ -2,7 +2,256 @@
         EXTRA Small Device
 ===============================*/
 @media (max-width:575px){
-
+	/* home page */
+    .container {
+        width: 100%;
+    }
+	.hotline .icon1 {
+		margin: 0 15px;
+	}
+	.hotline .icon .fa-phone {
+		font-size: 12px;
+	}
+	.hotline {
+		font-size: 11px;
+		padding: 1px 7px;
+	}
+	.hotline > .container > .d-flex{
+		justify-content: space-between;
+	}
+	.nav{
+		display: none;
+	}
+	.nav-item{
+		margin: 1px 1px 1px 1px;
+	}
+	.details{
+		margin: 1px 1px 1px 9px;
+	}
+	.navbar-toggler{
+		display: none;
+	}
+	.navbar-collapse.header-nav{
+		display: none;
+	}
+	.offcanvas-mobile{
+		display: block;
+	}
+	.offcanvas-btn{
+		display: block;
+	}
+	.navbar .navbar-brand{
+		display: block;
+	}
+	.navbar .navbar-brand .logo-img {
+		width: 150px;
+		height: 50px;
+	}
+	.navbar {
+		padding: 0px 10px;
+	}
+	.offcanvas-mobile{
+		width: 85%;
+	}
+	.navbar .header-nav ul li a {
+		font-size: 12px;
+		padding: 10px;
+	}
+	.navbar .header-nav > ul > li > a {
+		color: var(--black) !important;
+		margin-right: 0;
+	}
+	.navbar .header-nav > ul > li > a:hover {
+		color: var(--black) !important;
+		background: var(--white);
+		z-index: 200;
+	}
+	.navbar .header-nav ul li a.active:before {
+		background: var(--white);
+		color: var(--black) !important;
+	}
+	.navbar .header-nav ul li a:focus{
+		background: var(--white);
+		color: var(--black) !important;
+	}
+	.navbar-light .navbar-nav .nav-link.dropdown-toggle.show {
+		color: var(--white) !important;
+	}
+	.navbar-light .navbar-nav .nav-link.dropdown-toggle.show .dropdown-menu{
+		color: var(--white) !important;
+	}
+	.header-nav .navbar-nav .dropdown .dropdown-menu li{
+		display: block;
+		text-align: center;
+	}
+	.navbar .navbar-nav .dropdown .dropdown-menu li a {
+		font-size: 13px;
+		padding: 5px;
+		font-weight: 500;
+	}
+	.banner .common .overlay {
+		padding: 40px 15px 20px 15px;
+	}
+	.banner .common h1 {
+		font-size: 24px;
+	}
+	.banner .common h2 {
+		font-size: 22px;
+	}
+	.banner .common p {
+		width: auto;
+		margin-top: 10px;
+		margin-bottom: 20px !important;
+	}
+	.banner .slick-dots {
+		bottom: -10px;
+	}
+	.aboutus {
+		margin: 0px 0 30px 0;
+		padding: 0 10px;
+	}
+	.aboutus .main {
+		padding-top: 60px;
+	}
+	.aboutus .about-us-iframe{
+		padding-right: 0;
+	}
+	.aboutus .about-title {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	.aboutus .right-col .about-desc {
+		font-size: 13px;
+		margin: 20px 0 15px 0 !important;
+	}
+	.button a {
+		font-size: 13px;
+		padding: 5px 10px;
+	}
+	.event-part .item .right-side .item-btn {
+		font-size: 13px;
+		padding: 5px 10px;
+		width: 82px;
+	}
+	.title h1 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.title p {
+		width: auto;
+		font-size: 13px;
+	}
+	.title {
+		margin-bottom: 20px;
+	}
+	.event-part .item .left-side .img {
+		height: 170px;
+	}
+	.event-part .item .right-side .item-title {
+		font-size: 16px;
+	}
+	.event-part .item .right-side .short-desc {
+		font-size: 12px;
+		margin-bottom: 5px !important;
+	}
+	.event-part .item .overlay h2 {
+		font-size: 14px;
+	}
+	.event-part .item {
+		margin: 0 10px 25px 10px;
+		padding: 15px;
+	}
+	.event-part {
+		margin-bottom: 40px;
+	}	
+	.m-col{
+		width: 50%;
+	}
+	.m-d-none{
+		display: none;
+	}
+	.footer-part .company-info .img {
+		width: 180px;
+		height: 60px;
+		margin: 0 auto;
+	}
+	.footer-part {
+		padding: 20px 0;
+	}
+	.footer-part .company-info p {
+		font-size: 12px;
+		margin-top: 20px;
+		padding: 0 10px;
+		text-align: center;
+	}
+	.footer-part .company-info .icon {
+		text-align: center;
+	}
+	.footer-part .company-info i{
+		margin-top: 15px;
+	}
+	.footer-part .company-info span {
+		font-size: 12px;
+		margin-top: 20px;
+		padding: 0 10px;
+	}
+	.footer-part .quick-links h3 {
+		margin-top: 30px;
+		font-weight: 700;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.footer-part .quick-links{
+		margin-left: 10px;
+		padding-right: 0;
+		width: 40%;
+	}
+	.footer-part .quick-links p {
+		font-size: 12px;
+	}
+	.footer-part .contact-part{
+		padding-right: 0;
+	}
+	.footer-part .contact-part h4 {
+		margin-top: 30px;
+		font-size: 16px;
+		margin-bottom: 20px;
+		font-weight: 700;
+	}
+	.footer-part  .contact .location .text .title {
+		font-size: 13px;
+	}
+	.footer-part  .contact .location p {
+		font-size: 12px;
+	}
+	.footer-part  .contact .location i {
+		font-size: 16px;
+		height: 32px;
+		width: 35px;
+		line-height: 33px;
+		margin-top: 5px;
+		margin-right: 10px;
+	}
+	.footer-part  .contact .location {
+		margin-bottom: 10px;
+	}
+	.footer-part  .contact .location.contact-email i{
+		width: 45px;
+	}
+	.copyright {
+		padding: 10px 10px;
+		font-size: 12px;
+	}
+	/* venue details */
+	.inner-banner .overlay {
+		background: rgba(45, 62, 80,0.4);
+		height: 100%;
+		width: 100%;
+		padding: 50px 0 20px 0;
+	}
+	.venue-details .nav {
+		display: block;
+	}
 }
 
 
@@ -14,14 +263,12 @@
 }
 
 
-
 /*==============================
         Medium Device  [col-md]
 ===============================*/
 @media (min-width:768px) and (max-width:991px){
 
 }
-
 
 
 /*==============================
@@ -32,10 +279,9 @@
 }
 
 
-
 /*==============================
         Extra Large Device
 ===============================*/
 @media (min-width:1200px){
-    
+	
 }
