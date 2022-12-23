@@ -242,7 +242,7 @@
 		padding: 10px 10px;
 		font-size: 12px;
 	}
-	/* venue details */
+	/* venue details css */
 	.inner-banner .overlay {
 		background: rgba(45, 62, 80,0.4);
 		height: 100%;
@@ -251,6 +251,14 @@
 	}
 	.venue-details .nav {
 		display: block;
+	}
+
+	/* about us section css */
+	.about-section {
+		padding: 0 10px;
+	}
+	.about-section .description{
+		font-size: 13px;
 	}
 }
 
