@@ -69,6 +69,9 @@
 	 transition: 0.4s;
 	 cursor: pointer;
 }
+.footer-part .quick-links p a{
+	 color: var(--white);
+}
 .footer-part .quick-links p:hover{
 	color: var(--hover);
 }

@@ -239,15 +239,7 @@
 }
 .booking-section .book-now-btn {
     float: right;
-    border: none;
-    font-size: 14px;
-    padding: 5px 15px;
-    border-radius: 3px;
-    background: var(--primary);
-    color: white;
-    transition: 0.4s;
 }
-.booking-section .book-now-btn:hover {
-    background: var(--red);
-    color: white;
+.booking-section .d-flex.check-in{
+  margin-top: 8px;
 }
