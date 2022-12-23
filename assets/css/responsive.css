@@ -260,6 +260,38 @@
 	.about-section .description{
 		font-size: 13px;
 	}
+	.booking-section {
+		padding: 0 10px;
+	}
+	.dbox .icon {
+		width: 50px;
+		height: 50px;
+		margin-bottom: 10px;
+	}
+	.contact-wrap {
+		margin: 0 15px 15px 15px;
+	}
+	.venue-details {
+		margin: 0 10px;
+	}
+	.venue-details .tab-content .video {
+		height: 200px;
+	}
+	.venue-details .tab-content .photo-gallery .thumbnails .img img {	
+		height: 60px;
+	}
+	.venue-details .nav-pills .nav-link i {
+		font-size: 12px;
+	}
+	.venue-details .nav-pills .nav-link {
+		line-height: initial;
+		padding: 2px 5px;
+	}
+	.venue-details .tab-name {
+		line-height: initial;
+		margin-top: -5px;
+		font-size: 12px;
+	}
 }
 
 
